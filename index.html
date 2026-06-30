@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Work Journal as QA Manager</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body{
+        background:#f4f7fb;
+        color:#333;
+        line-height:1.6;
+    }
+
+    header{
+        background:linear-gradient(135deg,#0052cc,#007bff);
+        color:white;
+        padding:40px;
+        text-align:center;
+        box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    header h1{
+        font-size:2.5rem;
+        margin-bottom:10px;
+    }
+
+    header p{
+        opacity:0.9;
+        font-size:1.1rem;
+    }
+
+    .container{
+        width:90%;
+        max-width:1200px;
+        margin:30px auto;
+    }
+
+    .summary{
+        background:white;
+        padding:25px;
+        border-radius:12px;
+        box-shadow:0 4px 15px rgba(0,0,0,0.08);
+        margin-bottom:25px;
+    }
+
+    .summary h2{
+        color:#0052cc;
+        margin-bottom:15px;
+    }
+
+    .journal-grid{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+        gap:20px;
+    }
+
+    .card{
+        background:white;
+        border-radius:12px;
+        padding:20px;
+        box-shadow:0 4px 15px rgba(0,0,0,0.08);
+        transition:0.3s;
+    }
+
+    .card:hover{
+        transform:translateY(-5px);
+    }
+
+    .date{
+        color:#007bff;
+        font-weight:bold;
+        margin-bottom:10px;
+    }
+
+    .task{
+        margin-bottom:10px;
+    }
+
+    .status{
+        display:inline-block;
+        padding:6px 12px;
+        border-radius:20px;
+        font-size:0.85rem;
+        font-weight:bold;
+        color:white;
+    }
+
+    .completed{
+        background:#28a745;
+    }
+
+    .inprogress{
+        background:#ff9800;
+    }
+
+    .pending{
+        background:#dc3545;
+    }
+
+    footer{
+        text-align:center;
+        padding:20px;
+        margin-top:30px;
+        background:#ffffff;
+        color:#666;
+        border-top:1px solid #ddd;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>📘 My Work Journal as QA Manager</h1>
+    <p>Tracking Quality Excellence, Team Performance & Continuous Improvement</p>
+</header>
+
+<div class="container">
+
+    <section class="summary">
+        <h2>Weekly Summary</h2>
+        <p>
+            As a QA Manager, I oversee quality assurance activities, monitor service quality,
+            manage audit programs, coach QA analysts, drive process improvements, and ensure
+            operational excellence across the organization.
+        </p>
+    </section>
+
+    <div class="journal-grid">
+
+        <div class="card">
+            <div class="date">30 June 2026</div>
+            <h3>Quality Audit Review</h3>
+            <p class="task">
+                Reviewed 50 customer interactions and identified coaching opportunities
+                related to empathy and compliance adherence.
+            </p>
+            <span class="status completed">Completed</span>
+        </div>
+
+        <div class="card">
+            <div class="date">29 June 2026</div>
+            <h3>Calibration Session</h3>
+            <p class="task">
+                Conducted calibration with QA Analysts to improve scoring consistency
+                and reduce audit variance.
+            </p>
+            <span class="status completed">Completed</span>
+        </div>
+
+        <div class="card">
+            <div class="date">28 June 2026</div>
+            <h3>Agent Coaching Program</h3>
+            <p class="task">
+                Facilitated coaching sessions for low-performing agents and developed
+                action plans for performance improvement.
+            </p>
+            <span class="status inprogress">In Progress</span>
+        </div>
+
+        <div class="card">
+            <div class="date">27 June 2026</div>
+            <h3>Root Cause Analysis</h3>
+            <p class="task">
+                Investigated recurring customer complaints and provided recommendations
+                to reduce process defects.
+            </p>
+            <span class="status completed">Completed</span>
+        </div>
+
+        <div class="card">
+            <div class="date">26 June 2026</div>
+            <h3>Stakeholder Meeting</h3>
+            <p class="task">
+                Presented quality performance metrics, DSAT trends, and opportunities
+                for process improvement to leadership.
+            </p>
+            <span class="status completed">Completed</span>
+        </div>
+
+        <div class="card">
+            <div class="date">Upcoming</div>
+            <h3>QA Strategy Planning</h3>
+            <p class="task">
+                Define next quarter's quality roadmap, audit enhancements,
+                and automation opportunities.
+            </p>
+            <span class="status pending">Planned</span>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    © 2026 My Work Journal as QA Manager | Quality First, Excellence Always
+</footer>
+
+</body>
+</html>
